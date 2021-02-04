@@ -1,9 +1,9 @@
 #include <stdio.h>
-    /**
-     * main - print alphabet except for "q" and "e"
-     *
-     * Return: 0 in success
-     */
+/**
+ * main - print alphabet except for "q" and "e"
+ *
+ * Return: 0 in success
+ */
 int main(void)
 {
 int a;
@@ -15,6 +15,6 @@ if (a != 'q' && a != 'e')
 putchar(a);
 }
 }
-putchar('\n');  
+putchar('\n');
 return (0);
 }
